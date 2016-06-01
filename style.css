@@ -1,0 +1,74 @@
+#profile_card {
+	height:100%;
+	width: 33%;
+	float: right;
+	background-color: darkblue;
+	border-style: solid;
+	border-width: 1.5em;
+	border-color: black;
+	border-bottom: none;
+	border-right: none;
+}
+
+.description {
+	position:relative;
+	color:white;
+	width:100%;
+}
+
+img {
+
+	float: left;
+	height: 35%;
+	width: 65%;
+	border-bottom: 1px inset grey;
+	margin-left: 5%;
+}
+
+
+h3{
+	clear: both;
+	margin-left: 5%;
+}
+
+h3.name {
+	font-size: 2em;
+	color: #FF0000;
+	font-weight: 900;
+}
+
+h3.about {
+	padding-top: 5%;
+	color: #FF0000;
+	font-weight: 900;
+}
+
+.back {
+	margin-top:-1em;
+	padding: 5%;
+	font-size: 16px;
+	color: yellow;
+	font-weight: 400;
+
+}
+
+p.back, p.back2home {
+	font-size: 2em;
+	color: red;
+	font-weight: 900;
+}
+
+a.back, a.back2home {
+	
+	text-decoration: none;
+	color: red;
+	font-size: 16px;
+	font-weight: 900;
+
+}
+
+.back2home {
+	margin-top:-3em;
+	float:right;
+}
+
