@@ -20,8 +20,7 @@ img {
 
 	float: left;
 	height: 35%;
-	width: 85%;
-	/*width:auto;*/
+	width: 65%;
 	border-bottom: 1px inset grey;
 	margin-left: 5%;
 }
@@ -71,5 +70,74 @@ a.back, a.back2home {
 .back2home {
 	margin-top:-3em;
 	float:right;
+}
+
+@media (max-device-width:1024px){
+ #profile_card {
+ 	background-color:black;
+ }
+}
+
+@media (max-device-width:600px){
+ #profile_card {
+ 	background-color:grey;
+ }
+
+ .description{
+ 	color:black;
+ 	font-weight:bold;
+ }
+}
+
+@media (max-device-width:360px){
+ #profile_card {
+ 	background-color:#2F4F4F;
+ }
+
+  .description{
+ 	color:white;
+ }
+}
+
+@media (max-device-width:360px) and (min-device-height:200px),
+       (max-device-width:600px) and (min-device-height:200px),
+       (max-device-width:1024px) and (min-device-height:200px){
+  
+  #profile_card{
+    position:relative;
+  	margin-top:-1em;
+  	width:98vw;
+  	height:110vh;
+  	font-size:3em;
+  }
+
+  p.back, p.back2home {
+  	font-size:3em;
+  }
+
+  a.back, a.back2home {
+    font-size:0.3em;
+
+  }
+
+  p.back2home{
+  	position:relative;
+  	top:0.5em;
+  	left:-2em;
+  	width:4em;
+  }
+
+  p.back{
+  	position:relative;
+  	top:0.5em;
+  	left:0.2em;
+  }
+
+}
+
+@media (min-width:600px) and (min-height:200px){
+	#profile_card{
+		height:120vh;
+	}
 }
 
