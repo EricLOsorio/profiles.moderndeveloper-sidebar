@@ -4,7 +4,7 @@
 	float: right;
 	background-color: darkblue;
 	border-style: solid;
-	border-width: 1.5em;
+	border-width: 5px;
 	border-color: black;
 	border-bottom: none;
 	border-right: none;
@@ -19,8 +19,8 @@
 img {
 
 	float: left;
-	height: 35%;
-	width: 65%;
+	height: 243px;
+	width: 320px;
 	border-bottom: 1px inset grey;
 	margin-left: 5%;
 }
@@ -33,43 +33,52 @@ h3{
 
 h3.name {
 	font-size: 2em;
-	color: #FF0000;
+	color: #66CCFF;
 	font-weight: 900;
 }
 
 h3.about {
 	padding-top: 5%;
-	color: #FF0000;
+	color: #66CCFF;
 	font-weight: 900;
 }
 
 .back {
-	margin-top:-1em;
-	padding: 5%;
+	display:inline-block;
+	margin-top:0em;
+	padding: 0
 	font-size: 16px;
 	color: yellow;
+	float:left;
 	font-weight: 400;
 
 }
 
 p.back, p.back2home {
 	font-size: 2em;
-	color: red;
+
 	font-weight: 900;
 }
 
 a.back, a.back2home {
 	
 	text-decoration: none;
-	color: red;
+	color: #4C4A4A;
 	font-size: 16px;
 	font-weight: 900;
 
 }
 
+a:hover{
+    color:red;
+}
+
+
 .back2home {
-	margin-top:-3em;
+	display:inline-block;
+	margin-top:0em;
 	float:right;
+	padding-right:5px;
 }
 
 @media (max-device-width:1024px){
