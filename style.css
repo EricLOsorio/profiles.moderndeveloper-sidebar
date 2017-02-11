@@ -16,6 +16,10 @@
 	width:100%;
 }
 
+.description p{
+	padding:15px;
+}
+
 img {
 
 	float: left;
